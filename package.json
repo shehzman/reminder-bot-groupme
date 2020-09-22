@@ -1,0 +1,33 @@
+{
+  "name": "groupmebot",
+  "version": "1.0.0",
+  "description": "Bot to grab events from the google calendar and display them in a message.",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "googleapis": "^39.2.0",
+    "moment-timezone": "^0.5.31",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "author": "Shehzad Yousaf",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shehzman/reminder-bot-groupme.git"
+  },
+  "keywords": [
+    "groupme",
+    "bot",
+    "remind"
+  ],
+  "bugs": {
+    "url": "https://github.com/shehzman/reminder-bot-groupme/issues"
+  },
+  "homepage": "https://github.com/shehzman/reminder-bot-groupme#readme"
+}
