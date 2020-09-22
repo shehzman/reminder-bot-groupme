@@ -4,7 +4,6 @@ var ws;
 const goog = require('./remind')
 var g = new goog()
 const axios = require('axios');
-const { setInterval } = require('timers');
 var errCount = 0
 var ids = []
 var checkID
